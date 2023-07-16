@@ -43,7 +43,7 @@ function calculateFrenchHolidays(year) {
     new Date(year, 0, 1),  // Jour de l'An
     easterMonday,  // Lundi de Pâques
     new Date(year, 4, 1),  // Fête du Travail
-    new Date(year, 4, 8),  // Victoire des Alliés
+    new Date(year, 4, 8),  // 8 mai
     ascension,  // Ascension
     pentecostMonday,  // Lundi de Pentecôte
     new Date(year, 6, 14),  // Fête Nationale
@@ -55,7 +55,7 @@ function calculateFrenchHolidays(year) {
 }
 
 function updateDates() {
-  // ... autres parties de la fonction ...
+  // ... 
 
   // Récupère la valeur de la case à cocher "Exclure les jours fériés"
   const excludeHolidays = document.getElementById('excludeHolidays').checked;
